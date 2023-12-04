@@ -1,0 +1,198 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-image: url(images/0b340f_3996ca4661ef4803abd7db2f7e547718~mv2.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+section {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: white;
+  width: fit-content;
+  text-align: center;
+}
+
+section p a {
+  color: white;
+  font-size: small;
+}
+header {
+  display: inline;
+  color: white;
+  font-size: 18px;
+  padding: 5vh;
+}
+header nav p {
+  font-size: medium;
+  margin-left: 10px;
+}
+#div1 {
+  /* display: inline;
+    position: fixed; */
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: black;
+}
+nav ul {
+  display: inline;
+  margin-inline-start: 59%;
+}
+nav ul li {
+  display: inline;
+  padding-right: 20px;
+}
+/* hover effect start */
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
+}
+nav ul li a:hover {
+  width: fit-content;
+  border-bottom: 2px solid red;
+}
+/* hover effect end */
+#menu_icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #menu_icon {
+    display: block;
+    float: inline-end;
+    padding: 0;
+    padding-right: 25px;
+  }
+  #nav_menu {
+    display: none;
+  }
+  #menu_icon.active + #nav_menu {
+    display: block;
+  }
+  #nav_menu li {
+    display: block;
+  }
+}
+#menu_h {
+  font-family: "Dancing Script", cursive;
+  font-size: 10vh;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+/*healthy tips*/
+
+.healthytips {
+  display: inline;
+}
+
+#tip1 {
+  margin: 2%;
+  background-image: url("images/healthytips/glassofwater.jpg");
+}
+#tip2 {
+  margin: 2%;
+  background-image: url("images/healthytips/sparklingwateer.jpg");
+}
+#tip3 {
+  margin: 2%;
+  background-image: url("images/healthytips/WhatsApp\ Image\ 2023-11-14\ at\ 9.49.20\ PM.jpeg");
+  background-position: right;
+}
+#tip4 {
+  margin: 2%;
+  background-image: url("images/healthytips/healthyappetizers.jpg");
+}
+#tip5 {
+  margin: 2%;
+  background-image: url("images/healthytips/alcohol.jpg");
+}
+#tip6 {
+  margin: 2%;
+  background-image: url("images/healthytips/fillingfood.jpg");
+}
+#tip7 {
+  margin: 2%;
+  background-image: url("images/healthytips/PortionSizes.jpg");
+}
+#tip8 {
+  margin: 2%;
+  background-image: url("images/healthytips/LimitUnhealthyFoodsandEatHealthyMeals.jpg");
+}
+#tip9 {
+  margin: 2%;
+  background-image: url("images/healthytips/waitertakingorder.jpg");
+}
+#tip10 {
+  margin: 2%;
+  background-image: url("images/healthytips/healthyDessert.jpg");
+}
+.healthytips p {
+  justify-content: center;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 5vh;
+  font-weight: bolder;
+  font-family: "Dancing Script", cursive;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+#healthytips {
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.healthytips-images {
+  display: inline-block;
+  width: 30vh;
+  height: 40vh;
+  margin: 50px 5vh;
+  border-radius: 5%;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.healthytips:hover .healthytips-images {
+  transform: scale(1.2);
+}
+
+a {
+  color: white;
+}
+
+/*End of healthy tips*/
+#contact {
+  width: auto;
+  height: auto;
+  margin-top: 10vh;
+  margin-bottom: 0;
+  padding-bottom: 3vh;
+  color: white;
+  background-color: rgb(9, 0, 0, 0.8);
+}
+#contact div {
+  display: block;
+}
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  height: 10vh;
+  margin-top: 0;
+  padding-top: 3vh;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

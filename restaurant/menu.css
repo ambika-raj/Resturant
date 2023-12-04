@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-image: url(images/0b340f_3996ca4661ef4803abd7db2f7e547718~mv2.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+section {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: white;
+  width: fit-content;
+  text-align: center;
+}
+
+section p a {
+  color: white;
+  font-size: small;
+}
+header {
+  display: inline;
+  color: white;
+  font-size: 18px;
+  padding: 5vh;
+}
+header nav p {
+  font-size: medium;
+  margin-left: 10px;
+}
+#div1 {
+  /* display: inline;
+  position: fixed; */
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: black;
+}
+nav ul {
+  display: inline;
+  margin-inline-start: 59%;
+}
+nav ul li {
+  display: inline;
+  padding-right: 20px;
+}
+/* hover effect start */
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
+}
+nav ul li a:hover {
+  width: fit-content;
+  border-bottom: 2px solid red;
+}
+/* hover effect end */
+#menu_icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #menu_icon {
+    display: block;
+    float: inline-end;
+    padding: 0;
+    padding-right: 25px;
+  }
+  #nav_menu {
+    display: none;
+  }
+  #menu_icon.active + #nav_menu {
+    display: block;
+  }
+  #nav_menu li {
+    display: block;
+  }
+}
+#menu {
+  width: 90vb;
+  height: 100vh;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 30vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 5vh;
+}
+#menu img {
+  float: inline-start;
+  width: 100%;
+  margin-bottom: 2vh;
+  height: 100%;
+  /* object-fit: cover; */
+}
+#menu_h {
+  font-family: "Dancing Script", cursive;
+  font-size: 10vh;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+/* RESERVATION BUTTON START*/
+
+#button {
+  align-items: center;
+  text-align: center;
+  margin-top: -10%;
+  margin-bottom: 8%;
+}
+
+div button {
+  align-items: center;
+  margin: 0;
+  padding: 2vh 9vh 2vh 9vh;
+  font-family: "Dancing Script", cursive;
+  font-size: 3vh;
+  color: white;
+  background-color: rgb(6, 0, 0, 0.8);
+  border-radius: 5vh;
+  transition: transform 0.3s ease-in-out;
+}
+
+div button:hover {
+  transform: scale(1.05);
+}
+
+/* RESERVATION BUTTON END*/
+
+#deals {
+  width: auto;
+  height: fit-content;
+  background-color: rgb(6, 0, 0, 0.8);
+}
+.parent {
+  display: inline;
+}
+#image1 {
+  background-image: url("images/deals/Side\ dishes\ for\ Steak.jpg");
+}
+#image2 {
+  background-image: url("images/deals/MEAL\ PLAN\ WEEK\ 32.jpg");
+}
+#image3 {
+  background-image: url("images/deals/Mulled\ Wine\ Christmas\ Sangria.jpg");
+}
+#image4 {
+  background-image: url("images/deals/Classic\ fruit\ cake\ with\ salted\ maple\ syrup.jpg");
+}
+
+.img_category {
+  display: inline-block;
+  width: 30vh;
+  height: 40vh;
+  margin: 50px 5vh;
+  border-radius: 5%;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.parent:hover .img_category {
+  transform: scale(1.2);
+}
+
+.img_category p {
+  text-align: center;
+  font-size: 5vh;
+  padding-top: 50%;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+#deals h2 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(221, 221, 109);
+  font-size: 5vh;
+}
+#contact {
+  width: auto;
+  height: auto;
+  margin-top: 10vh;
+  margin-bottom: 0;
+  padding-bottom: 3vh;
+  color: white;
+  background-color: rgb(9, 0, 0, 0.8);
+}
+#contact div {
+  display: block;
+}
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  height: 10vh;
+  margin-top: 0;
+  padding-top: 1vh;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

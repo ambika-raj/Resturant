@@ -1,0 +1,210 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-image: url(images/0b340f_3996ca4661ef4803abd7db2f7e547718~mv2.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+section {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: white;
+  width: fit-content;
+  text-align: center;
+}
+/* header */
+header {
+  display: inline;
+  color: white;
+  font-size: 18px;
+  padding: 5vh;
+}
+header nav p {
+  font-size: medium;
+  margin-left: 10px;
+}
+#div1 {
+  /* display: inline;
+  position: fixed; */
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: black;
+}
+nav ul {
+  display: inline;
+  margin-inline-start: 59%;
+}
+nav ul li {
+  display: inline;
+  padding-right: 20px;
+}
+/* hover effect start */
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
+}
+nav ul li a:hover {
+  width: fit-content;
+  border-bottom: 2px solid red;
+}
+/* hover effect end */
+#menu_icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #menu_icon {
+    display: block;
+    float: inline-end;
+    padding: 0;
+    padding-right: 25px;
+  }
+  #nav_menu {
+    display: none;
+  }
+  #menu_icon.active + #nav_menu {
+    display: block;
+  }
+  #nav_menu li {
+    display: block;
+  }
+}
+
+/* header end */
+
+/* image slider */
+
+#menu_h {
+  font-family: "Dancing Script", cursive;
+  font-size: 10vh;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+#img-slider {
+  width: 70vh;
+  height: 70vh;
+  margin-top: 10vh;
+  box-shadow: 0px 0px 3px;
+  background-color: rgb(10, 2, 2, 0.9);
+  overflow: hidden;
+  position: relative;
+  padding-left: 15vh;
+  display: flex;
+}
+#image1 {
+  background-image: url(images/food/IMG-20231111-WA0001.jpg);
+}
+#image2 {
+  background-image: url(images/food/IMG-20231111-WA0002.jpg);
+}
+#image3 {
+  background-image: url(images/food/IMG-20231111-WA0003.jpg);
+}
+#image4 {
+  background-image: url(images/food/IMG-20231111-WA0004.jpg);
+}
+#image6 {
+  background-image: url(images/food/IMG-20231111-WA0006.jpg);
+}
+#image7 {
+  background-image: url(images/food/IMG-20231111-WA0007.jpg);
+}
+#image8 {
+  background-image: url(images/food/IMG-20231111-WA0008.jpg);
+}
+#image9 {
+  background-image: url(images/food/IMG-20231111-WA0009.jpg);
+}
+#image10 {
+  background-image: url(images/food/IMG-20231111-WA0010.jpg);
+}
+#image11 {
+  background-image: url(images/food/IMG-20231111-WA0011.jpg);
+}
+#image12 {
+  background-image: url(images/food/IMG-20231111-WA0012.jpg);
+}
+#image13 {
+  background-image: url(images/food/IMG-20231111-WA0013.jpg);
+}
+#image14 {
+  background-image: url(images/food/IMG-20231111-WA0014.jpg);
+}
+#image15 {
+  background-image: url(images/food/IMG-20231111-WA0015.jpg);
+}
+#image16 {
+  background-image: url(images/food/IMG-20231111-WA0016.jpg);
+}
+#image17 {
+  background-image: url(images/food/IMG-20231111-WA0017.jpg);
+}
+#image18 {
+  background-image: url(images/food/IMG-20231111-WA0018.jpg);
+}
+#image19 {
+  background-image: url(images/food/IMG-20231111-WA0019.jpg);
+}
+.slide_images {
+  width: 60vh;
+  height: 74.62vh;
+  /* height: 73.18vh; Abhijith */
+  border: 5px solid rgba(245, 245, 92, 0.4);
+  background-size: cover;
+  transition: 1.5s;
+  display: inline;
+  position: absolute;
+  object-fit: cover;
+  position: absolute;
+}
+#icons {
+  margin-bottom: 5%;
+  text-align: center;
+}
+.arrow {
+  width: auto;
+  margin: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+}
+#contact {
+  width: auto;
+  height: auto;
+  margin-top: 10vh;
+  margin-bottom: 0;
+  padding-bottom: 3vh;
+  color: white;
+  background-color: rgb(9, 0, 0, 0.8);
+}
+#contact div {
+  display: block;
+}
+#contact div a {
+  color: white;
+}
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  height: 10vh;
+  margin-top: 0;
+  padding-top: 1vh;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
